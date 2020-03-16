@@ -1,0 +1,11 @@
+make
+openjdk8-jre@community
+fontconfig@community
+ttf-dejavu@community
+graphviz
+freetype
+libpng
+nss
+libjpeg-turbo
+curl
+libarchive-tools
