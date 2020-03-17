@@ -1,3 +1,11 @@
+# Those vars are used broadly outside this Dockerfile
+# Github Action CI is consuming these variables.
+
+ARG VERSION="3.9.2"
+ARG DOCKERHUB_USER="mleist"
+ARG APP_NAME="py36slim"
+
+
 FROM alpine:3.9
 
 # see https://github.com/jfloff/alpine-python
