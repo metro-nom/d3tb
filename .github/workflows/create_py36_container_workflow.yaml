@@ -37,8 +37,8 @@ jobs:
           echo "$(cat DKR_HUB_URL) < DKR_HUB_URL"
       - name: Logs / docker (inspect, history, version, info), uname
         run: |
-          docker inspect $(cat TAG_UAT)
-          docker history $(cat TAG_UAT) --no-trunc
+          docker inspect $(cat TAG_VERSION)
+          docker history $(cat TAG_VERSION) --no-trunc
           docker version
           docker info
           uname -a
