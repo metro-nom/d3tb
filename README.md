@@ -10,6 +10,7 @@
 
 **base python docker image**
 
+![Build 'py38slim' docker image](https://github.com/metro-nom/d3tb/workflows/Build%20'py38slim'%20docker%20image/badge.svg?branch=master)
 
 ## docser
 
