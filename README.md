@@ -1,4 +1,4 @@
-# d3tb - dapper data driven tool box
+# d3tb - distributed data driven tool box
 
 ## py36slim
 
